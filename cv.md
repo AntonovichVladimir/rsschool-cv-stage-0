@@ -35,3 +35,20 @@ return a * b
 const math = multiply(4, 5)
 console.log(math)
 ```
+
+## Education
+***
+
+* University: Brest State Technical University
+   + Faculty: Engineering Systems and Ecology 
+
+## Experience
+***
+
+**01 Aug 2017 - now:** I work at an enterprise for the production of children's toys **PP POLESIE JV, LTD** in the city of Kobrin, Belarus as a ***design engineer***. I develop the design of children's toys and write programs for CNC machines.
+
+## Languages
+****
+
+* Russian - ***native***
+* English - ***A2 (Pre-Intermediate)***
