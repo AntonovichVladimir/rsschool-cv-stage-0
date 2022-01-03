@@ -5,11 +5,167 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Antonovich CV</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <div class="header__items">
+               <div class="header__logo">
+                  <img class="logo-av" src="img/logo_av.jpg" alt="av initials logo">
+               </div>
+               <nav class="header__menu">
+                  <ul class="header__menu-list">
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#contacts">Contacts</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#skills">Skills</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#languages">Languages</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#about-me">About me</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#education">Education</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#work-experience">Work experience</a>
+                     </li>
+                     <li class="header__menu-item">
+                        <a class="header__menu-link" href="#code-example">Code</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="container">
+            <div class="main-content">
+               <div class="main-right-items">
+                  <div class="main__photo">
+                     <img class="main__photo-img" src="img/antonovich.jpg" alt="antonovich-photo">
+                  </div>
+                  <section class="contacts" id="contacts">
+                     <h3 class="title contacts__title">Contacts</h3>
+                     <ul class="contacts__list">
+                        <li class="contacts__item">Phone:
+                           <a class="contacts__link" href="tel:+375297926205">+375297926205</a>
+                        </li>
+                        <li class="contacts__item">Email:
+                           <a class="contacts__link"
+                              href="mailto:antonovichvladimira@gmail.com">antonovichvladimira@gmail.com</a>
+                        </li>
+                        <li class="contacts__item">GitHub:
+                           <a class="contacts__link" href="https://github.com/AntonovichVladimir"
+                              target="_blank">github.com/AntonovichVladimir</a>
+                        </li>
+                        <li class="contacts__item">Telegram:
+                           <a class="contacts__link" href="https://t.me/antonovichvladimir"
+                              target="_blank">t.me/antonovichvladimir</a>
+                        </li>
+                        <li class="contacts__item">Linkedin:
+                           <a class="contacts__link" href="https://www.linkedin.com/in/antonovichvl/"
+                              target="_blank">linkedin.com/in/antonovichvl/</a>
+                        </li>
+                        <li class="contacts__item">Location: <span class="contacts__value">Belarus, Kobryn</span>
+                        </li>
+                     </ul>
+                  </section>
+                  <section class="skills" id="skills">
+                     <h3 class="title skills__title">Skills</h3>
+                     <ul class="skills__list">
+                        <li class="skills__item">HTML5, CSS3</li>
+                        <li class="skills__item">GIT, GitHub</li>
+                        <li class="skills__item">VS Code</li>
+                        <li class="skills__item">Adobe Photoshop, Figma, Avocode, Zeplin</li>
+                        <li class="skills__item">Autodesk PowerMill, Creo Parametric, Autodesk 3ds Max, Autodesk AutoCAD
+                        </li>
+                     </ul>
+                  </section>
+                  <section class="languages" id="languages">
+                     <h3 class="title languages__title">Languages</h3>
+                     <ul class="languages__list">
+                        <li class="languages__item">
+                           <p class="languages__name">Russian</p>
+                           <p class="languages__value">Native</p>
+                        </li>
+                        <li class="languages__item">
+                           <p class="languages__name">English</p>
+                           <p class="languages__value">A2 (Pre-Intermediate)</p>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+               <div class="main-left-items">
+                  <h1 class="main__title">Antonovich Vladimir</h1>
+                  <h2 class="main__subtitle">Design engineer</h2>
+                  <section class="about-me" id="about-me">
+                     <h3 class="title about-me__title">About me</h3>
+                     <p class="about-me__description"> I am 27 years old. I am an excellent team worker, purposeful,
+                        responsible, attentive, sociable.
+                        Always focused on quality and success. I love to joke and love people with a sense of humor. I
+                        quickly learn new things. I want to change my specialization and develop as a front-end
+                        developer.</p>
+                  </section>
+                  <section class="education" id="education">
+                     <h3 class="title education__title">Education</h3>
+                     <div class="education__description">
+                        <p class="education__subbtitle">Brest State Technical University</p>
+                        <p class="education__text">Faculty of Engineering Systems and Ecology</p>
+                        <p class="education__text">Years: 2012 - 2017</p>
+                        <p class="education__text">Specialization: Soil Conservation and Water Resources</p>
+                     </div>
+                  </section>
+                  <section class="work-experience" id="work-experience">
+                     <h3 class="title work-experience__title">Work experience</h3>
+                     <p class="work-experience__subtitle">Design engineer</p>
+                     <p class="work-experience__description">I work at an enterprise for the production of children's
+                        toys PP POLESIE JV, LTD in the city of
+                        Kobrin, Belarus. I develop the design of children's toys and write programs for CNC machines.
+                     </p>
+                  </section>
+                  <section class="code-example" id="code-example">
+                     <h3 class="title code-example__title">Code example</h3>
+                     <pre class="code-example__item">
+                        <code class="code-example__code">
+                           function multiply(a, b){
 
+                              return a * b 
+                              }
+                              
+                              const math = multiply(4, 5)
+                              console.log(math)
+                        </code>
+                     </pre>
+                  </section>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__items">
+               <a class="footer__github-link" href="https://github.com/AntonovichVladimir" target="_blank">
+                  <img class="footer__gihub-img" src="img/github.svg" alt="gihub-logo" width="50px" height="50px">
+                  <p class="footer__github-text"> Visit my GitHub</p>
+
+               </a>
+               <div class="footer__year">© 2022</div>
+               <a class="footer__rsschool-link" href="https://rs.school/js/" target="_blank">
+                  <img class="footer__rsschool-img" src="img/rs_school_js.svg" alt="rsschool-logo" width="86"
+                     height="32">
+               </a>
+            </div>
+         </div>
+      </footer>
+   </div>
 </body>
 
 </html>
